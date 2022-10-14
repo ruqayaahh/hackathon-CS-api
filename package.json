@@ -1,0 +1,35 @@
+{
+  "name": "hackathon-cs-api",
+  "version": "1.0.0",
+  "description": "api service for chrome etension",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruqayaahh/hackathon-CS-api.git"
+  },
+  "keywords": [
+    "google",
+    "calendar"
+  ],
+  "author": "Ruqayaah and Jeffery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ruqayaahh/hackathon-CS-api/issues"
+  },
+  "homepage": "https://github.com/ruqayaahh/hackathon-CS-api#readme",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "googleapis": "^105.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
