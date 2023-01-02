@@ -19,7 +19,7 @@ const TOKEN_PATH = join(cwd(), "token.json");
 const CREDENTIALS_PATH = join(cwd(), "credentials.json");
 
 /**
- * Reads previously authorized credentials from the save file.
+ * Reads previously authorized credentials from the saved file.
  *
  * @return {Promise<OAuth2Client|null>}
  */
@@ -34,7 +34,7 @@ async function loadSavedCredentialsIfExist() {
 }
 
 /**
- * Serializes credentials to a file comptible with GoogleAUth.fromJSON.
+ * Serializes credentials to a file compatible with GoogleAUth.fromJSON.
  *
  * @param {OAuth2Client} client
  * @return {Promise<void>}
@@ -86,7 +86,7 @@ router.get("/getSchedule", async (req, res) => {
 const PORT = process.env.PORT || 4000;
 app.listen(PORT, () => console.log(`app running on port: ${PORT}`));
 /**
- * Lists the names and IDs of up to 10 files.
+ * Get group's calendar you want to fetch
  * @param {OAuth2Client} authClient An authorized OAuth2 client.
  */
 
